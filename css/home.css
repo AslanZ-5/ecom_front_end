@@ -228,10 +228,37 @@ nav{
 
 .colors,.sizes{
     display: flex;
+    margin-bottom: 20px;
 }
 .color{
     width:32px;
     height:32px;
     border-radius: 5px;
     background-color: black;
+}
+.color:last-child{
+    background-color: darkblue;
+}
+
+.size{
+    padding: 5px 20px;
+    border:1px solid black;
+    margin-right:10px;
+    font-size:20px;
+}
+
+.productButton{
+    float:right;
+    padding: 10px 20px;
+    background-color: black;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.productButton:hover{
+    background-color: white;
+    color:black;
+    
 }
