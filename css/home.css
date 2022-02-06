@@ -10,7 +10,7 @@ body{
 nav{
     background-color: black;
     color:white;
-    padding: 20px,50px;
+    padding: 20px 50px;
 }
 
 .navTop{
@@ -391,3 +391,58 @@ label{
     font-weight: 600;
     cursor:pointer;
 }
+footer{
+    display:flex;
+}
+.footerLeft{
+    flex:2;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.fMenuTitle{
+    font-size: 30px;
+}
+.fMenuList{
+    padding: 0;
+    list-style: none;
+}
+.fListItem{
+    margin-bottom: 10px;
+    color:gray;
+    cursor:pointer;
+}
+.footerRight{
+    flex:1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fInput{
+    padding: 5px;
+
+}
+.fButton{
+    padding: 5px;
+    background-color: black;
+    color:white;
+
+}
+.fIcons{
+    display: flex;
+
+}
+.fIcon{
+    width:25px;
+    height:25px;
+    margin: 0 10px 20px 0;
+
+}
+
+.copyRight{
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
