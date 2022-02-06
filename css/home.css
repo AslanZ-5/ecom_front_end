@@ -479,4 +479,36 @@ footer{
         left:0;
         background-color: lightgray;
     }
+    .buyButton{
+        top: 0;
+        right:0;
+        
+    }
+    .features{
+        flex-direction: column;
+    }
+    .product{
+        clip-path: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .productImg{
+        width: 80%;
+    }
+    .productDetails{
+        width: 100%;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        position: relative;
+        top:0;
+    }
+    .productTitle{
+        font-size:50px;
+        margin: 0;
+    }
 }
+
